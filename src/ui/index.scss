@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f6f6;
+  text-align: center;
+}
+body,
+h1,
+button,
+input,
+p {
+  font-family: 'Courier New', 'Courier , monospace';
+}
+h1 {
+  margin-bottom: 2px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.postes-card {
+  .form {
+    margin: 3px;
+    input,
+    button {
+      width: 250px;
+      height: 50px;
+      border-radius: 2px;
+      margin: 2px;
+      padding: 5px;
+      border: 1px solid #888;
+    }
+    button {
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+  .posts {
+    .post {
+      width: 70%;
+      background-color: white;
+      border: 1px solid #666;
+      padding: 10px;
+      margin: 10px auto;
+      button {
+        width: 150px;
+        display: inline-block;
+        margin: 5px;
+      }
+    }
+  }
+}
